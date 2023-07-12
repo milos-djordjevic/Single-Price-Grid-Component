@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Milos Djordjevic" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Single Price Grid Component</title>
+  </head>
+  <body class="font-karla">
+    <div class="min-h-screen flex justify-center items-center bg-lightGray">
+      <div class="my-10 w-[90%] grid grid-cols-1 md:w-[80%] md:grid-cols-2">
+        <div
+          class="px-5 py-8 rounded-bl-md rounded-br-md bg-white md:col-span-2 md:px-7"
+        >
+          <h2 class="text-cyan font-bold text-2xl mb-8 md:mb-6">
+            Join our community
+          </h2>
+          <p class="text-brightYellow font-bold text-xl mb-8 md:mb-6">
+            30-day, hassle-free money back guarantee
+          </p>
+          <p class="text-lightGray text-lg">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </div>
+
+        <div class="px-5 py-8 space-y-8 bg-cyan md:px-7 md:space-y-6">
+          <h2 class="text-white font-bold text-2xl">Monthly Subscription</h2>
+          <div class="flex items-center space-x-3 mb-6">
+            <p class="text-white font-bold text-3xl">$29</p>
+            <p class="text-grayishBlue text-lg">per month</p>
+          </div>
+          <p class="text-white text-xl">Full access for less that $1 a day</p>
+
+          <button
+            class="w-[90%] mx-auto bg-brightYellow py-4 rounded-[4px] text-white"
+          >
+            Sign up
+          </button>
+        </div>
+
+        <div
+          class="px-5 py-10 rounded-bl-md rounded-br-md relative z-10 before:absolute before:-z-10 before:inset-0 before:bg-[hsla(179_62%_43%_/_0.7)]"
+        >
+          <h2 class="text-white font-bold mb-6 text-2xl">Why Us</h2>
+          <p class="text-white text-lg max-w-[60%]">
+            Tutorials by industry experts Peer & expert code review Coding
+            exercises Access to our GitHub repos Community forum Flashcard decks
+            New videos every week
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
